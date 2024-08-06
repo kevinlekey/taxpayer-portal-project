@@ -1,0 +1,101 @@
+.vfd-efd-service-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-receipt form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.create-receipt input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cta-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    margin-top: 10px;
+}
+
+.add-button {
+    width: 100%;
+    background-color: #446e46;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #c5d9c6;
+    color: #446e46;
+}
+
+.add-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.receipt-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.receipt-list th, .receipt-list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.receipt-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.receipt-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.receipt-list button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.receipt-list button:hover {
+    background-color: #d32f2f;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
