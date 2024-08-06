@@ -1,0 +1,346 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    height: 100px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.center-text {
+    text-align: center;
+    padding-left: 2in;
+    padding-right: 2in;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    background-color: yellow;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.horizontal-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.horizontal-nav li {
+    margin: 0 10px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #376B7E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2a4f59;
+}
+
+.register-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.register-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.custom-list {
+    list-style-type: disc;
+    padding-left: 2in;
+    text-align: left;
+}
+
+.news-updates {
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    margin-left: 2in;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    padding-left: 192px;
+    padding-right: 192px;
+    padding-bottom: 0.8in;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust gap as needed */
+    justify-content: center; /* Center the grid */
+    align-items: center;
+}
+
+.cta-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #376B7E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-buttons button:hover {
+    background-color: #2a4f59;
+}
+
+.cta-buttons a {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #376B7E;
+    border: 2px solid #376B7E;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.cta-buttons a:hover {
+    background-color: #2a4f59;
+    color: white;
+    border-color: #2a4f59;
+}
+
+
+.chatbot-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #376B7E;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.chatbot-toggle-button:hover {
+    background-color: #2a4f59;
+}
+
+.chatbot-container.hidden {
+    display: none;
+}
+
+.horizontal-options {
+    display: flex;
+    gap: 20px;
+}
+
+.horizontal-options label {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.address-container {
+    display: flex;
+    gap: 20px;
+}
+.address-container .form-group {
+    flex: 1;
+}
+@media (max-width: 768px) {
+    .address-container {
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.service-row {
+    display: flex;
+    gap: 60px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 180px;
+    padding: 30px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.service-item:hover {
+    background-color: #d0d0d0;
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service-name {
+    font-size: 18px;
+}
