@@ -1,0 +1,124 @@
+.driving-licenses-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.add-license {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.license-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cta-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-button {
+    background-color: #446e46;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #c5d9c6;
+}
+
+.licenses-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.license-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.license-item span {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.extend-button, .delete-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.extend-button:hover {
+    background-color: #1976D2;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.no-licenses {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.loading {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .license-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .license-item button {
+        margin-top: 10px;
+    }
+}
