@@ -1,0 +1,71 @@
+.cta-buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cta-buttons button, .cta-buttons a {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-buttons button {
+    background-color: #376B7E;
+    color: white;
+    border: none;
+}
+
+.cta-buttons button:hover {
+    background-color: #2a4f59;
+}
+
+.cta-buttons a {
+    color: #376B7E;
+    border: 2px solid #376B7E;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cta-buttons a:hover {
+    background-color: #2a4f59;
+    color: white;
+    border-color: #2a4f59;
+}
+
+.cta-link {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+}
+
+.login-button button {
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #376B7E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-button button:hover {
+    background-color: #2a4f59;
+}

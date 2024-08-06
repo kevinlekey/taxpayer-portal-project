@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cormorant+Garamond&display=swap');
+
+.certificate {
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  padding: 40px;
+  background-color: #faf9f6;
+  background-size: cover;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.certificate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 20px solid transparent;
+  border-image: url('https://thumbnail.imgbin.com/24/4/10/imgbin-certificate-border-xWCZ4w24tSvLvPBGrfiBnyLkx_t.jpg') 30 round;
+  pointer-events: none;
+}
+
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-size: 100px;
+  opacity: 0.1;
+  color: #000;
+  pointer-events: none;
+}
+
+.seal {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.seal img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.signature {
+  margin-top: 40px;
+}
+
+.signature img {
+  width: 150px;
+  height: auto;
+}
+
+.certificate-number {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.certificate h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
